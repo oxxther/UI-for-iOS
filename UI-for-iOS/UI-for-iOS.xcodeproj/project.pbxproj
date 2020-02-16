@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		451FD6FB23B448B800CFC44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 451FD6FA23B448B800CFC44A /* AppDelegate.m */; };
-		451FD6FE23B448B800CFC44A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 451FD6FD23B448B800CFC44A /* SceneDelegate.m */; };
-		451FD70123B448B800CFC44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451FD70023B448B800CFC44A /* ViewController.m */; };
-		451FD70423B448B800CFC44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451FD70223B448B800CFC44A /* Main.storyboard */; };
 		451FD70623B448BC00CFC44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451FD70523B448BC00CFC44A /* Assets.xcassets */; };
 		451FD70923B448BC00CFC44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451FD70723B448BC00CFC44A /* LaunchScreen.storyboard */; };
 		451FD70C23B448BC00CFC44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 451FD70B23B448BC00CFC44A /* main.m */; };
@@ -22,11 +19,6 @@
 		451FD6F623B448B800CFC44A /* UI-for-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-for-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		451FD6F923B448B800CFC44A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		451FD6FA23B448B800CFC44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		451FD6FC23B448B800CFC44A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		451FD6FD23B448B800CFC44A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		451FD6FF23B448B800CFC44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		451FD70023B448B800CFC44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		451FD70323B448B800CFC44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		451FD70523B448BC00CFC44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451FD70823B448BC00CFC44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451FD70A23B448BC00CFC44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,11 +63,6 @@
 				451FD71223B44BF300CFC44A /* Base */,
 				451FD6F923B448B800CFC44A /* AppDelegate.h */,
 				451FD6FA23B448B800CFC44A /* AppDelegate.m */,
-				451FD6FC23B448B800CFC44A /* SceneDelegate.h */,
-				451FD6FD23B448B800CFC44A /* SceneDelegate.m */,
-				451FD6FF23B448B800CFC44A /* ViewController.h */,
-				451FD70023B448B800CFC44A /* ViewController.m */,
-				451FD70223B448B800CFC44A /* Main.storyboard */,
 				451FD70523B448BC00CFC44A /* Assets.xcassets */,
 				451FD70723B448BC00CFC44A /* LaunchScreen.storyboard */,
 				451FD70A23B448BC00CFC44A /* Info.plist */,
@@ -161,7 +148,6 @@
 			files = (
 				451FD70923B448BC00CFC44A /* LaunchScreen.storyboard in Resources */,
 				451FD70623B448BC00CFC44A /* Assets.xcassets in Resources */,
-				451FD70423B448B800CFC44A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,26 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451FD70123B448B800CFC44A /* ViewController.m in Sources */,
 				451FD6FB23B448B800CFC44A /* AppDelegate.m in Sources */,
 				451FD71523B44C5800CFC44A /* OXXTabBarController.m in Sources */,
 				451FD70C23B448BC00CFC44A /* main.m in Sources */,
 				451FD71823B44C7A00CFC44A /* OXXViewController.m in Sources */,
-				451FD6FE23B448B800CFC44A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		451FD70223B448B800CFC44A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				451FD70323B448B800CFC44A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		451FD70723B448BC00CFC44A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
